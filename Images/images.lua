@@ -66,20 +66,20 @@ lockedSymbolImg = love.graphics.newImage("Images/Symbols/lockedSymbol.png")
 	swordImg = love.graphics.newImage("Images/Abilities/sokkasSword.png")
 	boomerangImg = love.graphics.newImage("Images/Abilities/sokkasBoomerang.png")
 
--- Grass
-fireGrass = love.graphics.newImage("Images/Grass/fireGrass.png")
-waterGrass = love.graphics.newImage("Images/Grass/waterGrass.png")
-airGrass = love.graphics.newImage("Images/Grass/airGrass.png")
-earthGrass = love.graphics.newImage("Images/Grass/earthGrass.png")
-normalGrass = love.graphics.newImage("Images/Grass/normalGrass.png")
+-- Tiles
+fireTile = love.graphics.newImage("Images/Tiles/fireGrass.png")
+waterTile = love.graphics.newImage("Images/Tiles/waterGrass.png")
+airTile = love.graphics.newImage("Images/Tiles/airGrass.png")
+earthTile = love.graphics.newImage("Images/Tiles/earthGrass.png")
+normalTile = love.graphics.newImage("Images/Tiles/normalGrass.png")
 
-fireEdge = love.graphics.newImage("Images/Grass/fireEdge.png")
-waterEdge = love.graphics.newImage("Images/Grass/waterEdge.png")
-airEdge = love.graphics.newImage("Images/Grass/airEdge.png")
-earthEdge = love.graphics.newImage("Images/Grass/earthEdge.png")
-normalEdge = love.graphics.newImage("Images/Grass/normalEdge.png")
+fireTileEdge = love.graphics.newImage("Images/Tiles/fireEdge.png")
+waterTileEdge = love.graphics.newImage("Images/Tiles/waterEdge.png")
+airTileEdge = love.graphics.newImage("Images/Tiles/airEdge.png")
+earthTileEdge = love.graphics.newImage("Images/Tiles/earthEdge.png")
+normalTileEdge = love.graphics.newImage("Images/Tiles/normalEdge.png")
 
-void = love.graphics.newImage("Images/Grass/void.png")
+voidTile = love.graphics.newImage("Images/Tiles/void.png")
 
 -- Backgrounds
 winScreen = love.graphics.newImage("Images/Backgrounds/winScreenBackground.png")

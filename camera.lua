@@ -14,7 +14,7 @@ function camera.translate()
     love.graphics.scale(camera.zoom)--apply camera zoom
 end
 
-function camera.update()
+function camera.update(dt)
     if camera.follow~=false then
         camera.x,camera.y=960-camera.follow.x*camera.zoom,520-camera.follow.y*camera.zoom
     end
